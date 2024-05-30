@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP SHOP</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0dff00;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        nav ul li {
+            padding: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            background-color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ccc;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h3 {
+            color: #1eff00;
+            margin-top: 20px;
+        }
+
+        h4 {
+            color: #000;
+        }
+
+        video {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul li {
+            padding: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* Flexbox para el contenedor principal */
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Estilos adaptables */
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            section {
+                flex: 3;
+                padding: 40px;
+            }
+
+            nav {
+                flex: 1;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tienda de deportes</h1>
+            <img src="images/LOGO.png" alt="Logo tienda">
+            <nav>
+                <ul>
+                    <li><h2>Productos a la venta</h2></li>
+                    <li>JP SHOP</li>
+                    <li><a href="images/camiseta futbol 1.png">Camisetas de futbol</a></li>
+                    <li><a href="images/sudadera equipos 2.png">Sudaderas de equipos</a></li>
+                    <li><a href="images/camisetas baloncesto 3.png">Camisetas baloncesto</a></li>
+                    <li><a href="images/Zapatos 4.png">Zapatos</a></li>
+                    <li><a href="images/busos 5.png">Busos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h3>Recomendaciones</h3>
+            <h4>1. Si el producto tiene algún defecto comunicarse al siguiente número: 3148477845</h4>
+            <h4>2. Revisar muy bien las medidas de las tallas</h4>
+            <h4>3. Reclamos o situaciones de productos comunicarse al 3148477845</h4>
+            <h1>Video publicitario</h1>
+            <video src="images/WhatsApp Video 2024-03-15 at 8.06.42 PM.mp4" controls></video>
+            <h2>Sectores páginas</h2>
+            <ul>
+                <li><a href="#">Carrito de compras</a></li>
+                <li><a href="#">Horario atención al cliente</a></li>
+                <li><a href="#">Métodos de pago</a></li>
+                <li><a href="#">Prendas que llegarán</a></li>
+                <li><a href="#">Regalos</a></li>
+                <li><a href="images/mapa sogamoso.jpg">Ubicación</a></li>
+                <li><a href="https://www.instagram.com/juantl_01/">Cuenta Instagram</a></li>
+                <img src="images/logo ig.jpg" alt="Instagram Logo">
+                <li><a href="https://www.facebook.com/juan.tole.507/">Cuenta Facebook</a></li>
+                <img src="images/logo facebook.jpg" alt="Facebook Logo">
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
